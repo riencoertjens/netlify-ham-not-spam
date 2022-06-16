@@ -47,8 +47,6 @@ async function hamNotSpam(id) {
     .catch((err) => console.log({ err }));
 }
 
-// To learn about scheduled functions and supported cron extensions,
-// see: https://ntl.fyi/sched-func
 exports.handler = function () {
   clearSpam();
   console.log("test");
